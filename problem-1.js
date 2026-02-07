@@ -11,6 +11,13 @@ function newPrice(currentPrice, discount) {
   } else {
     return "Invalid";
   }
+  // using ternary operator
+  // return typeof currentPrice === "number" &&
+  //   typeof discount === "number" &&
+  //   discount >= 0 &&
+  //   discount <= 100
+  //   ? (currentPrice - (currentPrice * discount) / 100).toFixed(3)
+  //   : "Invalid";
 }
 console.log(newPrice(2000, 15)); // 1700.000
 
