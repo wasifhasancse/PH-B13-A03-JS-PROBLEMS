@@ -1,3 +1,4 @@
+//  BCS Final Score Calculator
 function finalScore(omr) {
   //write your code here
   if (typeof omr === "object" && omr !== null && !Array.isArray(omr)) {
