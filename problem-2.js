@@ -1,3 +1,4 @@
+// OTP Validation 
 function validOtp(otp) {
   // Your code here
   if (typeof otp === "string") {

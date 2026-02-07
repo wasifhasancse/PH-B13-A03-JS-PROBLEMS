@@ -1,3 +1,4 @@
+// Discount Price for Eid Sale
 function newPrice(currentPrice, discount) {
   // Your code here
   if (
@@ -12,3 +13,11 @@ function newPrice(currentPrice, discount) {
   }
 }
 console.log(newPrice(2000, 15)); // 1700.000
+
+// Test Cases:
+// (1500, 20): -> 1200.0;
+// (2000, 15): -> 1700.0;
+// (1200, 7): -> 1116.0;
+// ("1000", 10): -> Invalid;
+// (2000, 17.17): -> 1656.6;
+// (500, "5"): -> Invalid;
