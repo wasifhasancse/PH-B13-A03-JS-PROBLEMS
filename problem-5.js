@@ -2,16 +2,13 @@ function analyzeText(str) {
   // Your code here
   if (typeof str === "string" && str.trim() !== "") {
     let words = str.split(" ");
-    console.log(words);
     let longwords = words[0];
     let token = 0;
     for (let word of words) {
       token += word.length;
       if (word.length > longwords.length) {
         longwords = word;
-      } else if (word.length === longwords.length) {
-        continue;
-      }
+      } 
     }
     return {
       longwords,
