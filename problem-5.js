@@ -25,6 +25,7 @@ console.log(analyzeText("Programming is fun")); // { longwords: "Programming", t
 console.log(analyzeText("A quick brown fox")); // { longwords: "quick", token: 14 }
 console.log(analyzeText("")); // Invalid
 console.log(analyzeText("                 ")); // Invalid
+console.log(analyzeText([1,2,3,4,5])); // Invalid
 
 // Test Cases:
 // "I am a little honest person": -> { longwords: "little", token: 22 }
