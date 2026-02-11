@@ -28,6 +28,7 @@ console.log(gonoVote("ha, na")); // Invalid
 console.log(gonoVote(12345)); // Invalid  
 console.log(gonoVote(["ha", "ha", "ha", 2, 5])); // true
 console.log(gonoVote([2, 5])); // true
+console.log(gonoVote({a: 5})); // Invalid
 
 // Test caches:
 // ["ha", "na", "ha", "na"]: -> equal
